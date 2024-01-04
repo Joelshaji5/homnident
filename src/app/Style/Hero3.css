@@ -1,0 +1,70 @@
+.Hero3{
+    background-image: url("/hero3Bg.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+    border: none;
+    padding-top: 159px;
+}
+
+
+.h3Heading{
+    color: #FFF;
+font-family: Lexend Deca;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.26px;
+text-transform: capitalize;
+text-align: end;
+margin-right: 120px;
+
+}
+
+.h3Para{
+    width: 919px; 
+    color: #FFF;
+text-align: end;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.6px;
+float: right;
+margin-right: 120px;
+margin-top: 9px;
+}
+
+.h3SubPara{
+    width: 258px;
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+margin-top:7px ;
+}
+
+.h3SubHeading{
+    color: #FFF;
+font-family: Lexend Deca;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.72px;
+text-transform: capitalize;
+margin-top: 10px;
+}
+
+.imgh3div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

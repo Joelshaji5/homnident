@@ -1,0 +1,163 @@
+.testimonialDiv{
+    background-image: url("/testimonail.png");
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.testimonialHeading{
+    color: #FFF;
+text-align: center;
+font-family: Lexend Deca;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.26px;
+text-transform: capitalize;
+padding-top: 63px;
+}
+
+.testimonialPara{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.6px;
+width: 919px;
+margin-top: 12px;
+margin: auto;
+}
+
+
+
+
+
+.atul {
+  margin-top: 106px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-gap: 2.5%;
+    grid-template-areas: "card1 card2" 
+                         "card3 card4"
+                         ;
+  }
+  
+  .card:nth-child(1) {
+    grid-area: card1;
+  
+
+
+    width: 519px;
+height: 569px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #D9D9D9;
+margin: auto;
+align-items: start;
+  }
+  
+  .card:nth-child(2) {
+    grid-area: card2;
+    height: 220px;
+    width: 519px;
+height: 331px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #D9D9D9;
+  }
+  
+  .card:nth-child(4) {
+    grid-area: card4;
+    width: 519px;
+height: 408px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #D9D9D9;
+margin-top: -200px;
+  }
+
+  .card:nth-child(3) {
+    grid-area: card3;
+    width: 519px;
+height: 302px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #D9D9D9;
+margin:auto;
+}
+
+  .testimonialCardHeading{
+    color: #26567B;
+font-family: Lexend Deca;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.26px;
+text-transform: capitalize;
+margin-left: 40px;
+margin-top: 40px;
+  }
+
+  .testimonialCardPara{
+    color: #26567B;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.54px;
+margin-top: 20px;
+margin-left: 40px;
+margin-right: 40px;
+  }
+
+
+  .TestimonialCardGoogle{
+    color: #26567B;
+font-family: Lexend Deca;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.72px;
+text-transform: capitalize;
+float: right;
+margin-right: 40px;
+  }
+
+
+  .testimonialSubHeading{
+    color: #FFF;
+text-align: center;
+font-family: Lexend Deca;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.26px;
+text-transform: capitalize;
+margin-top: 90px;
+  }
+
+  
+  .BookBtn{
+      width: 332px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #FFF;
+  color: #26567B;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  margin-top: 60px;
+  }

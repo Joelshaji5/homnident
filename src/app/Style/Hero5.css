@@ -1,0 +1,82 @@
+.Hero5Heading{
+    color: #26567B;
+text-align: center;
+font-family: Lexend Deca;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.26px;
+text-transform: capitalize;
+margin-top: 81px;
+margin-bottom: 58px;
+}
+
+.dentalSpaCard{
+    width: 583px;
+    height: 353px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+
+
+}
+
+.card1{
+    background-image: url("/DentaGleam.png");
+    background-size: cover;
+    background-position: center;
+    padding-right: 36px;
+
+}
+
+.card2{
+    background-image: url("/Moonstone.png");
+    background-size: cover;
+    background-position: center;
+    padding-right: 36px;
+    
+}
+
+.card3{
+    background-image: url("/IvoryGlow.png");
+    background-size: cover;
+    background-position: center;
+    padding-right: 36px;
+
+}
+
+.card4{
+    background-image: url("/DentaGleam.png");
+    background-size: cover;
+    background-position: center;
+    padding-right: 36px;
+
+}
+
+.cardHeading{
+    color: #FFF;
+text-align: right;
+font-family: Lexend Deca;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.96px;
+text-transform: capitalize;
+width: 370px;
+}
+
+.CardPara{
+    color: #FFF;
+text-align: right;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+padding-bottom: 36px;
+}
