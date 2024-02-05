@@ -5,6 +5,7 @@ import Hero3 from './Homepage/Hero3'
 import Hero5Denatlspa from './Homepage/hero5Denatlspa'
 import Form from './Homepage/Form'
 import Patienttestimonials from './Homepage/Patienttestimonials'
+import Footer from './Components/Footer/Footer'
 export default function Home() {
   return (
     <div>
@@ -12,8 +13,10 @@ export default function Home() {
       <Hero2 />
       <Hero3 />
       <Hero5Denatlspa />
-      <Form />
       <Patienttestimonials />
+      <Form />
+
+      <Footer />
 
     </div>
 

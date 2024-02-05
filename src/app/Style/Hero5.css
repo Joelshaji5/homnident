@@ -13,7 +13,8 @@ margin-bottom: 58px;
 }
 
 .dentalSpaCard{
-    width: 583px;
+    width: 483px;
+    border-radius: 20px;
     height: 353px;
     flex-shrink: 0;
     display: flex;
