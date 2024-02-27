@@ -73,8 +73,8 @@ function Responsive() {
     return (
       <div key={index} className="DivSliderMobilePR">
         {console.log(TestimonialReview)}
-        <h1 className="testinmonialReviewH">{TestimonialReview.name}</h1>
-        <p className="testinmonialReviewP">{TestimonialReview.content}</p>
+        <h1 key={index} className="testinmonialReviewH">{TestimonialReview.name}</h1>
+        <p key={index} className="testinmonialReviewP">{TestimonialReview.content}</p>
         <ul>
           <li className="testinmonialReviewLi">Google Review</li>
         </ul>
