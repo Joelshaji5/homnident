@@ -22,7 +22,7 @@ export default function Homepage() {
 
       <Hero5Denatlspa />
       <SliderHome/>
-      <Patienttestimonials />
+      {/* <Patienttestimonials /> */}
 
       <BookingForm />
 
