@@ -14,7 +14,7 @@ import BookingForm from '../Components/FormContainer/CheckForm'
 export default function Homepage() {
   return (
     <div>
-      <Hero />
+      {/* <Hero />
       <BookingForm />
       <Hero2 />
       <Hero3 />
@@ -22,11 +22,12 @@ export default function Homepage() {
 
       <Hero5Denatlspa />
       <SliderHome/>
-      {/* <Patienttestimonials /> */}
+      <Patienttestimonials />
 
-      <BookingForm />
+      <BookingForm /> */}
 
-      <Footer />
+      {/* <Footer /> */}
+      <h1>hello</h1>
 
     </div>
 
