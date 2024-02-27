@@ -6,15 +6,15 @@ import SliderMobilePR from "../Components/Slider/SliderMobilePR.js"
 function Patienttestimonials() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
-  useEffect(() => {
-    const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 600); // Adjust 600 as per your requirement
-    };
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     setIsSmallScreen(window.innerWidth <= 600); // Adjust 600 as per your requirement
+  //   };
 
-    window.addEventListener('resize', handleResize);
-    handleResize(); // Check initially
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
+  //   window.addEventListener('resize', handleResize);
+  //   handleResize(); // Check initially
+  //   return () => window.removeEventListener('resize', handleResize);
+  // }, []);
 
   return (
     <div className={isSmallScreen ? 'testimonialDiv' : 'sliderContainer'}>
