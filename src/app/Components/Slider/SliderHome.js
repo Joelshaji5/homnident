@@ -50,15 +50,20 @@ function SliderHome() {
     return (
         <div className='align-middle w-[100vw] SliderMobileDisplay'>
             <Slider {...settings}>
-                {services.map((service, index) => (
-    <div key={index} className='m-auto w-[400px] h-[244px] slider-item border-black' style={{ backgroundColor: `red'})`, backgroundSize: 'cover', backgroundPosition: 'center', border: '1px solid black' }}>
-    <h1>{service.title}</h1>
-                        <h1>{service.title2}</h1>
-                        <h1>{service.description}</h1>
-                        {    console.log(service.image)
-}
-                    </div>
-                ))}
+
+            <div>
+      <img src="/DentaSpa1.png" alt="Image 1" />
+    </div>
+    <div>
+      <img src="/DentaSpa2.png" alt="Image 2" />
+    </div>
+    <div>
+      <img src="/DentaSpa3.png" alt="Image 3" />
+    </div>
+    <div>
+      <img src="/DentaSpa4.png" alt="Image 4" />
+    </div>
+
             </Slider>
         </div>
     );

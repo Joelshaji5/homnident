@@ -69,22 +69,19 @@ function Responsive() {
         
 
       {
-        testimonials.map((TestimonialReview)=>{
-
-            return(
-
-                <div  className="DivSliderMobilePR">
-                    {console.log(TestimonialReview)}
-                <h1 className="testinmonialReviewH">{TestimonialReview.name}</h1>
-                <p className="testinmonialReviewP">{TestimonialReview.content}</p>
-                <ul>
-                    <li className="testinmonialReviewLi">Google Review</li>
-                </ul>
-                </div>
-           
-            )
-        })
-      }
+  testimonials.map((TestimonialReview, index) => {
+    return (
+      <div key={index} className="DivSliderMobilePR">
+        {console.log(TestimonialReview)}
+        <h1 className="testinmonialReviewH">{TestimonialReview.name}</h1>
+        <p className="testinmonialReviewP">{TestimonialReview.content}</p>
+        <ul>
+          <li className="testinmonialReviewLi">Google Review</li>
+        </ul>
+      </div>
+    )
+  })
+}
 
 
       </Slider>

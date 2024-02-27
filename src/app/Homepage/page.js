@@ -21,9 +21,10 @@ export default function Homepage() {
       <Essentials />
 
       <Hero5Denatlspa />
-      <Patienttestimonials />
       <SliderHome/>
-      <Form />
+      <Patienttestimonials />
+
+      <BookingForm />
 
       <Footer />
 
