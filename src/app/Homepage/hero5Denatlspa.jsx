@@ -3,7 +3,7 @@ import "../Style/Hero5.css"
 
 function Hero5Denatlspa() {
   return (
-    <div>
+    <div className='DentalSpaMbMAinDiv'>
 
         <div className='mt-9 '>
             <h1 className='text-center Hero5Heading'>Dental spa</h1>
@@ -25,7 +25,7 @@ function Hero5Denatlspa() {
 <p className='CardPara'>Thorough deep cleaning paired with polishing.</p>
 </div>
 <div className='dentalSpaCard card4'>
-<h1 className='cardHeading'>DentaGleam <br></br>Scaling & Polishing </h1>
+<h1 className='cardHeading'>Dental Gleam <br></br>Scaling & Polishing </h1>
 <p className='CardPara'>Thorough deep cleaning paired with polishing.</p>
 </div>
         </div>

@@ -1,0 +1,322 @@
+.AboutHero2Div{
+    background-image: url("/AboutHero2Bg.png");
+    background-repeat: no-repeat;
+
+}
+
+.AboutCommunity{
+    padding-top: 145px;
+    text-align: end;
+    margin-right: 15%;
+    color: #FFF;
+font-family: "Lexend Deca";
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.26px;
+text-transform: capitalize;
+}
+
+.AboutCommunityP{
+    color: #FFF;
+    width: 60%;
+text-align: right;
+margin-left: auto;
+margin-right: 15%;
+font-family: "Lexend Deca";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.6px;
+}
+
+.community1{
+    width: 356px;
+height: 390px;
+flex-shrink: 0;
+border-radius: 20px;
+
+}
+
+.community2{
+    width: 531px;
+    height: 390px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+
+.community3{
+    width: 531px;
+    height: 390px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+
+.community4{
+    width: 356px;
+    height: 390px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+
+
+.community5{
+    width: 356px;
+    height: 390px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+
+.community6{
+    width: 531px;
+    height: 390px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+
+.campsDiv1{
+    width: 527px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #D9D9D9;
+padding-left: 48px;
+padding-right: 48px;
+}
+.campsDiv2{
+    width: 527px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #D9D9D9;
+padding-left: 48px;
+padding-right: 48px;
+}
+.campsDiv3{
+    width: 527px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #D9D9D9;
+padding-left: 48px;
+padding-right: 48px;
+}
+.campsDiv4{
+    width: 527px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #D9D9D9;
+padding-left: 48px;
+padding-right: 48px;
+}
+
+
+.CampDivH{
+    color: #26567B;
+    text-align: center;
+    font-family: "Lexend Deca";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    text-transform: capitalize;  
+    margin-bottom: 12px;
+    margin-top: 30px;
+}
+
+.CampDivP{
+    color: #26567B;
+text-align: center;
+font-family: "Lexend Deca";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.6px;
+margin-top: 18px;
+}
+
+.Line{
+    width: 90%;
+border-bottom: 2px solid #26567B;
+margin: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .AboutImgDiv
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .campsDiv1{
+        width: 80%;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: auto;
+        padding-inline: 27px;
+        padding-bottom: 16px;
+    }
+
+    .campsDiv2{
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: auto;
+        padding-inline: 27px;
+        padding-bottom: 16px;
+    }
+
+    .campsDiv3{
+        width: 80%;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: auto;
+        padding-inline: 27px;
+        padding-bottom: 16px;
+        
+    }
+
+    .campsDiv4{
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: auto;
+        padding-inline: 27px;
+        padding-bottom: 16px;
+    }
+.CampDivP{
+    color: #26567B;
+font-family: "Lexend Deca";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.6px;
+text-transform: capitalize;
+}
+ 
+
+.community1{
+    width: 356px;
+    height: 390px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+
+.community2{
+    width: 90vw;
+    height: 261px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+
+.community3{
+    width: 90vw;
+    height: 261px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+
+.community4{
+    width: 90vw;
+    height: 390px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+
+
+.community5{
+    width: 90vw;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+
+.community6{
+    width: 90vw;
+    height: 390px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+    
+}
+
+.CampDivH{
+    color: #26567B;
+text-align: center;
+font-family: "Lexend Deca";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.6px;
+text-transform: capitalize;
+margin-top: 17px;
+}
+
+.AboutCommunity{
+    color: #FFF;
+text-align: center;
+font-family: "Lexend Deca";
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.26px;
+text-transform: capitalize;
+margin-inline: 54px;
+width: auto;
+}
+
+.AboutCommunityP{
+    color: #FFF;
+text-align: center;
+font-family: "Lexend Deca";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.6px;
+margin-inline: 37px;
+width: auto;
+margin-top: 20px;
+}
+
+.aboutDrDiv{
+    margin: auto;
+    margin-top: 49px;
+}
+
+.drPara{
+    color: #26567B;
+font-family: "Lexend Deca";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.6px;
+text-transform: capitalize;
+}
+
+}

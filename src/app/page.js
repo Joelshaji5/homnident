@@ -6,18 +6,13 @@ import Hero5Denatlspa from './Homepage/hero5Denatlspa'
 import Form from './Homepage/Form'
 import Patienttestimonials from './Homepage/Patienttestimonials'
 import Footer from './Components/Footer/Footer'
+import Homepage from './Homepage/page'
+import About from './About/page'
 export default function Home() {
   return (
     <div>
-      <Hero />
-      <Hero2 />
-      <Hero3 />
-      <Hero5Denatlspa />
-      <Patienttestimonials />
-      <Form />
-
-      <Footer />
-
+      
+      <Homepage />
     </div>
 
   )

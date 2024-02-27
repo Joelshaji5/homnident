@@ -3,7 +3,7 @@ import "../Style/Hero3.css"
 
 function Hero3() {
   return (
-    <div className='flex Hero3 flex-col'>
+    <div className='flex Hero3 flex-col Hero3MainDiv'>
     
     <div>
         <h1 className='h3Heading'>why choose us?</h1>

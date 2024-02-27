@@ -1,0 +1,78 @@
+.bookingFormcontainer{
+    border-radius: 10px;
+background: linear-gradient(180deg, #418FCC 0%, #26567B 100%);
+width: 394px;
+height: 532px;
+flex-shrink: 0;
+margin: auto;
+margin-top: 40px;
+margin-bottom: 51px;
+
+}
+
+
+.bookingFormcontainerMain {
+    background-image: url(/FormBgMb.png);
+    object-fit: cover;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.bookingFormcontainerH{
+    color: #FFF;
+text-align: center;
+font-family: "Lexend Deca";
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 114.286% */
+letter-spacing: -0.84px;
+text-transform: capitalize;
+padding-block: 24px;
+border-bottom: 1px solid #FFF;
+}
+
+.bookingFormcontainerLabel{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.42px;
+margin-inline: 22px;
+
+margin-top: 16px;
+display: block;
+}
+
+.bookingFormcontainerInput{
+    border-radius: 4px;
+border: 0.5px solid #26567B;
+background: #FFF;
+width: 350px;
+height: 44px;
+flex-shrink: 0;
+margin-inline: 22px;
+display: block;
+
+}
+
+.bookingFormcontainerBtn{
+    color: #26567B;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.48px;
+width: 157.719px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+margin-top: 35px;
+float: right;
+margin-right: 22px;
+padding-bottom: 23px;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Style/Footer.css"
+import "../../Style/Footer.css"
 
 function Footer() {
   return (
@@ -7,7 +7,7 @@ function Footer() {
 
 
     <div className='footerImgDiv'>
-    <img src='./footerLogo.png' />
+    <img src='./footerLogo.png' alt='logo' className='FooterLogo' />
 
     </div>
     <div className='footerTxtDiv'>
@@ -16,6 +16,9 @@ function Footer() {
         <h3>Location - Pune, Navi Mumbai</h3>
         <h3>Email ID - homnident@gmail.com</h3>
         <h3>Phone number - 95037 75068</h3>
+        </div>
+        <div>
+          <p className='Designed'>Designed by - TechRift Dynamics</p>
         </div>
     </div>
 

@@ -3,8 +3,8 @@ import "../Style/form.css"
 
 function Form() {
   return (
-    <div className='flex formDiv'>
-    <div className='w-[50%]'></div>
+    <div className='flex formDiv FormMainDiv'>
+    <div className='w-[50%] form1stDiv'></div>
     <div className='w-[50%]'>
         <h1 className="formHeading" >Register for a Home <br></br> Consultation here !</h1>
         <form

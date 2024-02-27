@@ -1,10 +1,6 @@
 .testimonialDiv{
-    background-image: url("/testimonail.png");
-    margin-top: 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;}
-
+margin-top: 50px;
+}
 .testimonialHeading{
     color: #FFF;
 text-align: center;
@@ -16,7 +12,41 @@ line-height: normal;
 letter-spacing: -1.26px;
 text-transform: capitalize;
 padding-top: 63px;
+
+
+
+
+
 }
+
+
+
+.sliderContainer{
+background-image: url("/testimonail.png");
+background-repeat: no-repeat;
+
+object-fit: cover;
+width: 100vw;
+margin-top: 50px;
+padding-bottom: 113px;
+}
+
+
+
+
+.testimonialHeadingDiv{
+
+background-image: url("/testimonailMb.png");
+margin-top: 50px;
+background-repeat: no-repeat;
+position: relative;
+background-size: cover;
+position: relative;
+bottom: -100px;
+z-index: -5;
+background-position: center;}
+
+
 
 .testimonialPara{
     color: #FFF;
@@ -160,5 +190,85 @@ margin-top: 90px;
   line-height: normal;
   letter-spacing: -0.6px;
   margin-top: 60px;
-  margin: auto;
+  margin-inline: auto;
+  margin-bottom: 113px;
+  display: block;
+  }
+
+
+
+  @media only screen and (max-width: 768px) {
+  
+
+
+    .testimonialPara{
+      width: 90%;
+      color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+    }
+
+
+    .testinmonialReviewHAFterBtn{
+      color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.6px;
+border-radius: 10px;
+background: #26567B;
+width: 332px;
+height: 50px;
+flex-shrink: 0;
+margin: auto;
+margin-top: 24px;
+margin-bottom: 50px;
+    }
+
+
+    
+.atul {
+  display: none;
+  }
+
+
+  .TestumonialMbH{
+    color: #FFF;
+text-align: center;
+font-family: "Lexend Deca";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 100% */
+letter-spacing: -0.96px;
+text-transform: capitalize;
+text-align: center;
+padding-top: 30px;
+  }
+
+  .TestumonialMbP{
+    color: #FFF;
+text-align: center; 
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+margin-top: 14px;
+width: 347px;
+margin: auto;
+padding-top: 14px;
+padding-bottom: 140px;
+  }
+
+
+
   }

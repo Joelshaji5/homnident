@@ -1,0 +1,86 @@
+.heroAboutDiv{
+    background-image: url("/aboutHeroNew.png");
+    background-repeat: no-repeat;
+ background-size: cover;   
+ height: 870px;
+}
+
+.AboutTxt{
+    color: #FFF;
+text-align: center;
+font-family: "Lexend Deca";
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.26px;
+text-transform: capitalize;
+}
+
+.AboutSubTxt{
+    color: #26567B;
+text-align: center;
+font-family: "Lexend Deca";
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.26px;
+text-transform: capitalize;
+}
+
+.DrName{
+    color: #26567B;
+text-align: center;
+font-family: "Lexend Deca";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.96px;
+text-transform: capitalize;
+}
+
+.designation{
+    color: #26567B;
+text-align: center;
+font-family: "Lexend Deca";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.72px;
+text-transform: capitalize;
+text-align: end;
+margin-right: 10%;
+
+}
+
+.drPara{
+    color: #26567B;
+font-family: "Lexend Deca";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.6px;
+text-transform: capitalize;
+}
+
+@media only screen and (max-width: 768px) {
+    .heroAboutDiv{
+    background-image: url("/AboutHeroMobile.png");
+    object-fit: cover;
+    width: 100vw;
+    height: 41vh;
+    }
+    
+
+    .drDivBox{
+        flex-direction: column;
+    }
+
+    .heroAboutDiv{
+        height: auto;
+    }
+}

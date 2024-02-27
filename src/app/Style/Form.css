@@ -76,3 +76,23 @@ margin-top: 60px;
 .formInsideDiv >input{
     margin: auto;
 }
+
+@media only screen and (max-width: 768px) 
+{
+
+.formDiv{
+    display: none;
+}
+
+.fromInSideDiv > input{
+    width: 350px;
+height: 44px;
+flex-shrink: 0;
+margin-left: 0px;
+}
+
+.form1stDiv{
+    display: none;
+}
+
+}

@@ -1,0 +1,80 @@
+.footerDiv{
+    background-color: #26567B;
+    height: 357px;
+    display: flex;
+    margin-top: 100px
+    ;
+}
+
+
+.footerImgDiv{
+    border-right: 1px solid white;
+    width: 50vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.footerTxtDiv{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .footerDiv{
+        flex-direction: column;
+
+    }
+
+    .FooterLogo{
+        margin-top: 60px;
+        margin-inline: auto;
+    }
+
+    .footerImgDiv{
+        width: auto;
+    }
+    
+    .footerTxtDiv{
+        width: auto;
+        margin-top: 36px;
+        color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.6px;
+flex-direction: column;
+    }
+    
+    .campsDiv1{
+        padding-bottom: 16px;
+        padding-inline: 27px;
+        height: 150px;
+    }
+
+    .Designed{
+        color: #FFF;
+font-family: Montserrat;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.39px;
+margin-top: 45px;
+    }
+
+    .Designed{
+        color: #FFF;
+font-family: Montserrat;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.39px;
+    }
+}   

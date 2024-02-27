@@ -13,10 +13,10 @@ margin-bottom: 58px;
 }
 
 .dentalSpaCard{
-    width: 483px;
-    border-radius: 20px;
+    width: 583px;
     height: 353px;
     flex-shrink: 0;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -80,4 +80,16 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: -0.48px;
 padding-bottom: 36px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+.DentalSpaMbMAinDiv{
+    display: none;
+}
+
+
 }

@@ -68,3 +68,13 @@ margin-top: 10px;
     flex-direction: column;
     align-items: center;
 }
+
+
+@media only screen and (max-width: 768px) 
+{
+
+    .Hero3MainDiv{
+        display: none;
+    }
+    
+}

@@ -1,5 +1,7 @@
-import { Inter } from 'next/font/google'
+import { Inter , Montserrat , Lexend_Deca } from 'next/font/google'
+// import { Inter } from 'next/font/google'
 import './globals.css'
+import StickyNavbar from './Components/NavBar/NavBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,7 +13,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}</body>
     </html>
   )
 }

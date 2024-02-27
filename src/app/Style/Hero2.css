@@ -1,3 +1,8 @@
+
+.MbWhyChooseUs{
+    display: none;
+}
+
 .Hero2Heading{
     color: #26567B;
 font-family: Lexend Deca;
@@ -26,4 +31,131 @@ letter-spacing: -0.6px;
 .Hero2ParaDiv{
     margin-left: 67px;
     margin-top: 97px;
+}
+
+
+@media only screen and (max-width: 768px) 
+{
+    .Hero2Para{
+        width: 90vw;
+        text-align: center;
+        color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+
+
+
+    }
+    .about2Div{
+        flex-direction: column-reverse;
+        background-image: url("/hero2DivMb.png");
+        background-size: auto;
+        background-position: top;
+        background-repeat: no-repeat;
+
+        
+    }
+
+    .About2Img{
+        width: 322px;
+height: 322px;
+flex-shrink: 0;
+margin: auto;
+margin-top: 30px;
+    }
+
+    .Hero2ParaDiv{
+margin-inline: 22px;
+    }
+    .Hero2Heading{
+        text-align: center;
+        color: #FFF;
+text-align: center;
+font-family: Lexend Deca;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 100% */
+letter-spacing: -0.96px;
+text-transform: capitalize;
+margin-top: 40px;
+    }
+
+    .Hero2ParaDiv{
+        margin-top: 0;
+    }
+
+    .Hero2HeadingMb{
+        color: #26567B;
+text-align: center;
+font-family: Lexend Deca;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 100% */
+letter-spacing: -0.96px;
+text-transform: capitalize;
+text-align: center;
+margin-top: 40px;
+    }
+
+    .Hero2ParaMb{
+        color: #26567B;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+width: 90vw;
+margin: auto;
+margin-top: 16px;
+    }
+
+    .About2ImgMb {
+        width: 150px;
+height: 150px;
+flex-shrink: 0;
+position: relative;
+    }
+
+    .MbWhyChooseUs{
+        display: block;
+
+        background-image: url("/MbHero2BgImg");
+    }
+
+
+    .whyChooseMbH{
+        color: #26567B;
+font-family: "Lexend Deca";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+text-transform: capitalize;
+text-align: center;
+    }
+
+
+    .whyChooseMbP{
+        color: #26567B;
+text-align: center;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.36px;
+text-align: center;
+width: 125px;
+margin: auto;
+    }
 }

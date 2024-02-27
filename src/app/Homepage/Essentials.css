@@ -1,0 +1,219 @@
+/* Essentials.css */
+.mobile-grid{
+    display: none;
+}
+
+  .pic-grid {
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+
+  }
+
+  
+  .pic-grid > div {
+    height: 200px;
+    flex-shrink: 0;
+    text-align: end;
+    width: 353px;
+
+    
+          }
+    
+          .pic-grid > div:nth-child(1) {
+            background-image: url("/Essential1.png");
+            object-fit: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 353px;
+            height: 353px;
+            flex-shrink: 0;    
+    
+          }
+          
+          .pic-grid > div:nth-child(2) {
+            background-image: url("/Essential2.png");
+            object-fit: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 353px;
+            height: 353px;
+            flex-shrink: 0;    
+          }
+          
+          .pic-grid > div:nth-child(3) {
+    
+            background-image: url("/Essential3.png");
+            object-fit: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 353px;
+            height: 353px;
+            flex-shrink: 0;        }
+          
+          .pic-grid > div:nth-child(4) {
+            
+            background-image: url("/Essential4.png");
+            object-fit: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 353px;
+            height: 353px;
+            flex-shrink: 0;          }
+          
+    
+          .pic-grid > div:nth-child(5) {
+            
+            background-image: url("/Essential5.png");
+            object-fit: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 353px;
+            height: 353px;
+            flex-shrink: 0;          }
+    
+    
+          .pic-grid > div:nth-child(6) {
+            
+            background-image: url("/Essential6.png");
+            object-fit: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 353px;
+            height: 353px;
+            flex-shrink: 0;          }
+    
+          .essentialsImgDiv1,
+    .essentialsImgDiv2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end; 
+      justify-content: space-around;
+      height: 353px;
+      padding: 10px; 
+      border: 1px solid #ccc; 
+      border-radius: 10px;
+    background: linear-gradient(180deg, #26567B 0%, rgba(255, 255, 255, 0.00) 100%);
+    }
+
+    .EssentialH{
+        color: #26567B;
+font-family: "Lexend Deca";
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.26px;
+text-transform: capitalize;
+text-align: center;
+margin-top: 81px;
+margin-bottom: 61px;
+    }
+    
+  
+  @media only screen and (max-width: 768px) 
+  {
+
+    .pic-grid {
+        display: none;
+      }
+      
+
+      .mobile-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        padding: 5vw;
+      }
+
+      .mobile-grid > div {
+height: 200px;
+flex-shrink: 0;
+text-align: end;
+
+      }
+
+      .mobile-grid > div:nth-child(1) {
+        background-image: url("/Essential4Mb.png");
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+height: 200px;
+
+
+      }
+      
+      .mobile-grid > div:nth-child(2) {
+        background-image: url("/Essential4Mb.png");
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+height: 200px;
+
+      }
+      
+      .mobile-grid > div:nth-child(3) {
+
+        background-image: url("/Essential3Mb.png");
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+height: 200px;
+    }
+      
+      .mobile-grid > div:nth-child(4) {
+        
+        background-image: url("/Essential4Mb.png");
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+height: 200px;
+      }
+      
+
+      .mobile-grid > div:nth-child(5) {
+        
+        background-image: url("/Essential5Mb.png");
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+height: 200px;
+      }
+
+
+      .mobile-grid > div:nth-child(6) {
+        
+        background-image: url("/Essential6Mb.png");
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+height: 200px;
+      }
+
+      .essentialsImgDiv1,
+.essentialsImgDiv2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  height: 200px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 10px;
+background: linear-gradient(180deg, #26567B 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+
+.essentialsImgDiv1{
+    color: #FFF;
+text-align: right;
+font-family: "Lexend Deca";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.72px;
+text-transform: capitalize;
+}
+      
+  }

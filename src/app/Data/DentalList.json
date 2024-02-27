@@ -1,0 +1,35 @@
+{
+  "hero5DentalSpa": {
+    "title": "Dental spa",
+    "services": [
+      {
+        "title": "DentaGleam",
+        "title2": "Scaling & Polishing",
+        "description": "Thorough deep cleaning paired with polishing.",
+        "image": "dr1.png", 
+        "id": "service1"
+      },
+      {
+        "title": "Moonstone Radiance",
+        "title2": "Teeth Whitening",
+        "description": "Whitens your teeth by 1-2 shades for the bright & radiant look.",
+        "image": "/images/dr1.png", 
+        "id": "service2"
+      },
+      {
+        "title": "Ivory Glow",
+        "title2": "Teeth Brightening",
+        "description": "Add that clarity & luminosity to your teeth.",
+        "image": "/images/image3.jpg", 
+        "id": "service3"
+      },
+      {
+        "title": "DentaGLAM",
+        "title2": "Tooth Jewels",
+        "description": "Add a touch of glamour to enhance your smile. Bling bling!",
+        "image": "/images/image4.jpg", 
+        "id": "service4"
+      }
+    ]
+  }
+}
