@@ -11,8 +11,7 @@ import About from './About/page'
 export default function Home() {
   return (
     <div>
-      
-      <Homepage />
+    <h1>hello</h1>      
     </div>
 
   )
