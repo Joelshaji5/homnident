@@ -76,3 +76,15 @@ float: right;
 margin-right: 22px;
 padding-bottom: 23px;
 }
+
+.bookingFormcontainerMain{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .bookingFormcontainerMain{
+        display: block;
+    }
+    
+
+}
