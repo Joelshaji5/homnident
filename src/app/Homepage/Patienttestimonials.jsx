@@ -1,20 +1,12 @@
 "use client"
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import "../Style/Testinmonial.css";
 import SliderMobilePR from "../Components/Slider/SliderMobilePR.js"
 
 function Patienttestimonials() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     setIsSmallScreen(window.innerWidth <= 600); // Adjust 600 as per your requirement
-  //   };
-
-  //   window.addEventListener('resize', handleResize);
-  //   handleResize(); // Check initially
-  //   return () => window.removeEventListener('resize', handleResize);
-  // }, []);
+  // Removed window-related code
 
   return (
     <div className={isSmallScreen ? 'testimonialDiv' : 'sliderContainer'}>
@@ -59,12 +51,11 @@ function Patienttestimonials() {
         </>
       ) : (
         <>
-                <div className='testimonialHeadingDiv'>
-
-          <h1 className='TestumonialMbH'>Patient testimonials</h1>
-          <p className='TestumonialMbP'>Presenting the radiant smiles for our valued patients. We are dedicated to providing top-tier quality & care. Witnessing the joy in our patient’s smiles is our greatest reward.</p>
-        </div>
-        <SliderMobilePR />
+          <div className='testimonialHeadingDiv'>
+            <h1 className='TestumonialMbH'>Patient testimonials</h1>
+            <p className='TestumonialMbP'>Presenting the radiant smiles for our valued patients. We are dedicated to providing top-tier quality & care. Witnessing the joy in our patient’s smiles is our greatest reward.</p>
+          </div>
+          <SliderMobilePR />
         </>
       )}
     </div>
