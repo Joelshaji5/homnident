@@ -6,7 +6,6 @@ import SliderMobilePR from "../Components/Slider/SliderMobilePR.js"
 function Patienttestimonials() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
-  // Removed window-related code
 
   return (
     <div className={isSmallScreen ? 'testimonialDiv' : 'sliderContainer'}>

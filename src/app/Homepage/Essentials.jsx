@@ -1,6 +1,5 @@
 import React from 'react';
-import './Essentials.css'; // Import your CSS file where you define styles for `essentialsImgDiv1` and `essentialsImgDiv2`
-
+import '../Style/Essentials.css'; 
 export default function Essentials() {
   return (
     <div>
